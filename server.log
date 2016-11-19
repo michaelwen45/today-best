@@ -1,0 +1,26 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 19, 2016 - 18:42:19
+Django version 1.7.7, using settings 'cupcakeshop.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[19/Nov/2016 18:42:20] "GET /admin/ HTTP/1.1" 200 6292
+[19/Nov/2016 18:42:21] "GET /admin/menu/post/ HTTP/1.1" 200 3001
+[19/Nov/2016 18:42:21] "GET /static/admin/css/changelists.css HTTP/1.1" 200 5254
+[19/Nov/2016 18:42:21] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[19/Nov/2016 18:42:21] "GET /static/admin/img/tooltag-add.png HTTP/1.1" 200 119
+[19/Nov/2016 18:42:21] "GET /static/admin/img/nav-bg-reverse.gif HTTP/1.1" 200 178
+[19/Nov/2016 18:42:29] "GET /admin/menu/post/add/ HTTP/1.1" 200 6225
+[19/Nov/2016 18:42:29] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[19/Nov/2016 18:42:29] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10293
+[19/Nov/2016 18:42:29] "GET /static/admin/img/icon_calendar.gif HTTP/1.1" 200 192
+[19/Nov/2016 18:42:29] "GET /static/admin/img/icon_clock.gif HTTP/1.1" 200 390
+[19/Nov/2016 18:42:35] "GET /admin/ HTTP/1.1" 200 6292
+[19/Nov/2016 18:42:40] "GET /admin/auth/user/ HTTP/1.1" 200 6481
+[19/Nov/2016 18:42:40] "GET /static/admin/img/icon_searchbox.png HTTP/1.1" 200 368
+[19/Nov/2016 18:42:40] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[19/Nov/2016 18:42:40] "GET /static/admin/img/icon-yes.gif HTTP/1.1" 200 299
+[19/Nov/2016 18:42:40] "GET /static/admin/img/changelist-bg.gif HTTP/1.1" 200 50
+[19/Nov/2016 18:42:40] "GET /static/admin/img/nav-bg-selected.gif HTTP/1.1" 200 265
+[19/Nov/2016 18:42:40] "GET /static/admin/img/sorting-icons.gif HTTP/1.1" 200 369

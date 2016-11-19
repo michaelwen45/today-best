@@ -1,0 +1,42 @@
+{% extends 'menu/base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+  <div class="container" style="margin-top:20px">
+	<!-- Main component for a primary marketing message or call
+	to action -->
+	<div class="jumbotron title text-center" style="background-size : cover; background-image: url({% static 'menu/images/698563.jpg' %});")>
+		<h2 style="font-size : 30px; font-weight : bold">오늘의 베스트는 자유로운 자신의 일상 공간입니다</h2>
+		<p>자신의 일상을 마음껏 공유해주세요!</p>
+	</div>
+	</div> <!-- /container -->
+	<div class="container">
+		{% if cakes %}
+		<h2 class="text-center">오늘의 베스트를 구경해보세요!!</h2>
+		<div class="row">
+		{% for cake in cakes %}
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<div class="card">
+		<div class="card-img-top">
+		<div class="image" style="background-image: url({{ cake.image.url }});"></div>
+			<p>
+				{{cake.image.url}} d
+			</p>
+	</div>
+	<div class="card-block">
+		<h4 class="card-title text-center">{{ cake.name }}</h4>
+		<p class="card-text text-center">
+		<span class="glyphicon glyphicon-star" aria-hidden="
+		true"></span>
+		</p>
+		<a href="#" class="btn btn-default btn-lg btn-block">View</a>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+	</div>
+	{% else %}
+	<h2 class="text-center">No Cupcakes added yet -:(</h2>
+	{% endif %}
+</div>
+{% endblock %}
