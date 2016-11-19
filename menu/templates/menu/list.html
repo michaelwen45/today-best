@@ -11,20 +11,16 @@
 	</div>
 	</div> <!-- /container -->
 	<div class="container">
-		{% if cakes %}
+		{% if posts %}
 		<h2 class="text-center">오늘의 베스트를 구경해보세요!!</h2>
 		<div class="row">
-		{% for cake in cakes %}
+		{% for post in posts %}
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 		<div class="card">
 		<div class="card-img-top">
-		<div class="image" style="background-image: url({{ cake.image.url }});"></div>
-			<p>
-				{{cake.image.url}} d
-			</p>
 	</div>
 	<div class="card-block">
-		<h4 class="card-title text-center">{{ cake.name }}</h4>
+		<h4 class="card-title text-center">{{ post.name }}</h4>
 		<p class="card-text text-center">
 		<span class="glyphicon glyphicon-star" aria-hidden="
 		true"></span>
@@ -36,7 +32,7 @@
 	{% endfor %}
 	</div>
 	{% else %}
-	<h2 class="text-center">No Cupcakes added yet -:(</h2>
+	<h2 class="text-center">아직 작성된 포스트가 없습니다. -:(</h2>
 	{% endif %}
 </div>
 {% endblock %}
