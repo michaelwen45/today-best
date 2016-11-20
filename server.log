@@ -1,9 +1,10 @@
 Performing system checks...
 
 System check identified no issues (0 silenced).
-November 19, 2016 - 19:12:09
+November 20, 2016 - 07:39:47
 Django version 1.7.7, using settings 'cupcakeshop.settings'
 Starting development server at http://0.0.0.0:80/
 Quit the server with CONTROL-C.
-[19/Nov/2016 19:12:09] "GET / HTTP/1.1" 200 2887
-[19/Nov/2016 19:12:10] "GET /static/menu/images/KakaoTalk_20161120_040836461.png HTTP/1.1" 304 0
+[20/Nov/2016 07:39:47] "GET /post/1/ HTTP/1.1" 200 4034
+[20/Nov/2016 07:39:48] "GET /static/menu/images/chocolate_cupcake.jpg HTTP/1.1" 200 9086
+[20/Nov/2016 07:39:57] "GET /post/1/ HTTP/1.1" 200 4034
